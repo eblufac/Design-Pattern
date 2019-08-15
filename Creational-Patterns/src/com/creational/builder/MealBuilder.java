@@ -9,6 +9,7 @@ import com.creational.builder.Entity.VegBurger;
  * @author lgy
  * @version 1
  * @description 建造者类，与工厂模式相比，其更侧重于内部加载及装配顺序
+ *              要有一个监工类，传入builder对象由监工来控制加载流程和步骤，之后产生具体实例
  * @date 2019/8/15 19:02
  */
 public class MealBuilder {
